@@ -1,0 +1,55 @@
+body{
+    background-color: #674bb1;
+    margin: 0;
+    font-family: poppins;
+}
+.container{
+    background-image: url(./Assets/bg-desktop.svg);
+    min-height: 100vh;
+    padding: 10px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navigations{
+    a{
+        color: white;
+        text-decoration: none;
+        margin: 10px;
+        transition: all 350ms;
+    }
+    a:hover{
+        font-size: 18px;
+        color: #EA7FE7;
+    }
+}
+.hero{
+    display: flex;
+    margin-top: 60px;
+}
+.hero_text{
+    margin-left: 50px;
+    color: white;
+}
+button{
+    padding: 10px;
+    border-radius: 100px;
+    background-color: #EA7FE7;
+    border: 0px;
+    color: white;
+    width: 200px;
+    height: 40px;
+    transition: all 350ms;
+}
+button:hover{
+    font-size: 18px;
+    
+}
+.icons{
+    margin-right:50px;
+    display: flex;
+    justify-content: end;
+    gap: 20px;
+}
