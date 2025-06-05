@@ -1,0 +1,42 @@
+body{
+    background-color: #674BB1;
+    font-family: "Poppins"
+    
+}
+.container{
+    background-image: url(./asset/bg-desktop.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 0px 80px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navigations{
+   a{
+    text-decoration: none;
+    color: white;
+    margin: 0 8px;
+    transition: all 350ms;
+   }
+   a:hover{
+    font-size: 18px;
+    color: hotpink;
+   }
+}
+.hero{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 5px;
+    
+    margin-top: 50px;
+}
+.hero_text{
+    background-color: red;
+    width: 600px;
+    /* margin-left: 50px; */
+    margin-right: px;
+}
